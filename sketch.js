@@ -41,7 +41,7 @@ function draw() {
     mostraRaquete(xRaqueteOponente, yRaqueteOponente);
     movimentaRaqueteOponente();
     incluiPlacar() 
-    marcaPonto();
+    murilo();
 }
 function mostraBolinha() {
   circle(xBolinha, yBolinha, diametro);
@@ -111,7 +111,7 @@ function incluiPlacar(){
 }
 
 
-function marcaPonto() {
+function murilo() {
   if (xBolinha > 580) {
     meusPontos += 1;
   }
